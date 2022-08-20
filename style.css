@@ -1,23 +1,39 @@
 .container .navbar-brand {
   font-family: 'DynaPuff', cursive;
 }
-.card p {
-  margin-top: -10px;
-  margin-bottom: 1px;
+.aside .row .btn-group button {
+  height: 40px;
 }
-.row .card:hover {
+
+.aside .row .btn-group button {
+  color: black;
+}
+.kategori .col-1 {
+  margin: 0px;
+}
+
+.kategori .card {
+  border-radius: 0px;
+}
+.kategori a {
+  text-decoration: none;
+  color: black;
+}
+
+.kategori .col-1:hover {
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+.kategori .card .card-title {
+  font-size: 0.7em;
+  font-weight: 800;
+  margin: 2px;
+}
+
+.terlaris .col-md-10 .card:hover {
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.24);
   transform: scale(1.024);
 }
 
 .card .card-body {
   margin-bottom: 10px;
-}
-
-/* responsive HP */
-@media (max-width: 600px) {
-  .col-md-10 .row .card {
-    width: 100% !important;
-    margin: 10px;
-  }
 }
